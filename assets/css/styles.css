@@ -1,0 +1,63 @@
+header {
+    width: 100%;
+    height: 75px;
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+main {
+    height: 100vh;
+    display: flex;
+}
+
+aside {
+    width: 24%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    margin: 20px 0;
+}
+
+#historyList li {
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+section {
+    width: 74%;
+}
+
+#day {
+    padding: 20px;
+}
+
+#day, #fiveDayFC {
+   width: 98%;
+   height:35vh;
+   margin: 15px;
+}
+
+#fiveDayFC {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#fiveDayFC .bg-dark {
+    width: 18%;
+    color: white;
+    padding: 5px;
+}
+
+.dDate {
+    font-weight: bolder;
+    font-size: 1.2em;
+}
