@@ -95,7 +95,6 @@ formEl.addEventListener("submit", function(event){
                 // again, perceive the i+=8 because of the 3h spam between the indexes. 
                 for (var i =0; i < data.list.length; i+=8){
                    var boxesEls = document.getElementById("box-" + ((i/8) + 1));
-                    console.log(data.list);
                    boxesEls.innerHTML = "<p class='dDate'> Date: " + dayjs(data.list[i].dt * 1000).format("DD/MMM/YYYY")
                    + "</p> <p>" + data.list[i].weather.main + "</p> <p>Temp: " + data.list[i].main.temp 
                    + "ºC</p> <p> Wind: " + data.list[i].wind.speed 
